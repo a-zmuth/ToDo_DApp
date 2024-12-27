@@ -1,0 +1,64 @@
+[
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_content",
+          "type": "string"
+        }
+      ],
+      "name": "addTask",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getTasks",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "internalType": "string",
+              "name": "content",
+              "type": "string"
+            },
+            {
+              "internalType": "bool",
+              "name": "completed",
+              "type": "bool"
+            },
+            {
+              "internalType": "uint256",
+              "name": "timestamp",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct ToDo.Task[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_taskId",
+          "type": "uint256"
+        }
+      ],
+      "name": "toggleTaskCompletion",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]
