@@ -26,4 +26,4 @@ Just checking the capabilities of `web3.js` and its integration with PHP while c
 2. Ganache
 3. Remix IDE
 4. xampp
-5. vendor - php version of dotenv
+5. vlucas/phpdotenv
